@@ -1,0 +1,36 @@
+/*
+//-------------------------------------------------------------------
+@File: Default Styles
+
+@Author: Henderson Torres
+Author E-mail: teconet.arte@gmail.com
+
+//-------------------------------------------------------------------
+*/
+
+// Importa fontes locais, use caso não consiga acesar o Google Fonts
+// @import "../../_partials/fonts-local";
+
+// Variavéis de configuração do bootstrap (tem que ser antes do bootstrap)
+@import "../../_partials/variables";
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Hamburges Icon Menu
+// @import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+
+// AOS Animation
+//@import "../../node_modules/aos/src/sass/aos.scss";
+
+// Globals
+@import "../../_partials/globals";
+
+// Componets
+@import "../../_partials/_components/button-01";
+
+// Layouts
+// @import "../../_partials/_layouts/header";
+
+// Paginas
+// @import "../../_partials/_pages/home";

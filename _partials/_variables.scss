@@ -1,0 +1,43 @@
+// Base da fonte
+// https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap
+
+//font-family: 'Bebas Neue', cursive;
+//font-family: 'Noto Serif', serif;
+
+$font-default: "Noto Serif", serif;
+// pesos da fonte 400; 700
+$font-titles: "Bebas Neue", cursive;
+// pesos da fonte 400
+
+// $grid-gutter-width: 30px;
+
+// Cores
+$default-color: #212a31;
+$default-color-hover: #707070;
+$primary: #faa954;
+$dark: #201e1e;
+$red: #812e31;
+$gray: #3b3b3b;
+$gray-white: #f2f2f2;
+$secondary: #ffc07d;
+$white: #ffffff;
+$brown-default: #74371a;
+$brown-ligth: #b8623d;
+$brown-dark: #5c1c1f;
+$skyn: #ffe6cc;
+
+$enable-shadows: 1;
+// Customizando o modal
+// $modal-backdrop-bg: $primary;
+// $modal-backdrop-opacity: 1;
+
+//Custom hamburger icon
+$hamburger-layer-width: 34px;
+$hamburger-layer-height: 6px;
+// $hamburger-layer-spacing       : 9.5px;
+$hamburger-layer-color: $primary;
+$hamburger-layer-border-radius: 0;
+// $hamburger-hover-opacity       : 1;
+// $hamburger-types: (
+//   spring,
+// );
