@@ -12,9 +12,6 @@
   },
   "author": "Equipe de Desenvolvimento Web da Calebe_ Design <contato@calebedesign.com.br>",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
   "homepage": "",
   "devDependencies": {
     "bootstrap": "^4.6.0",
