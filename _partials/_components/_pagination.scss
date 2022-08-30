@@ -1,0 +1,25 @@
+/*pagination Styles*/
+.box-pagination {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-numbers {
+  font-size: 14px;
+  padding: 8px 14px;
+  background-color: #ffb3c8;
+  color: #004639;
+  margin: 0 1px;
+  transition: all 0.5s;
+}
+.page-numbers:hover {
+  background-color: #004639;
+  color: #fff;
+  text-decoration: none;
+}
+.current {
+  background-color: #004639;
+  color: #fff;
+}
