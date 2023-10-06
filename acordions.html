@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Default CSS Styles -->
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+
+    <style>
+        .ds-accordion {
+        border-bottom: 1px solid #89837f;
+        }
+
+
+        .ds-accordion__topic {
+            align-items: flex-start;
+            background-color: transparent;
+            border: none;
+                border-left-width: medium;
+                border-left-style: none;
+                border-left-color: currentcolor;
+            border-bottom-left-radius: 3px;
+            border-left: 0 solid transparent;
+            border-start-start-radius: 3px;
+            color: var(--color-neutral-low-dark);
+            cursor: pointer;
+            display: flex;
+            font-size: 16px;
+            justify-content: space-between;
+            line-height: 24px;
+            list-style: none;
+            padding: 12px 0;
+            padding-left: 0px;
+            position: relative;
+            text-align: left;
+            transition: padding-left .3s ease,border-left .3s ease;
+            width: 100%;
+        }
+
+        .ds-accordion--open .ds-accordion__topic, .ds-accordion:not(.ds-accordion--open):hover .ds-accordion__topic {
+            border-left: 3px solid rgb(236, 112, 0);
+            padding-left: 24px;
+        }
+        
+        
+        .ds-accordion__topic__text-container {
+            display: flex;
+        }
+
+        .ds-accordion__topic {
+            color: #333;
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 24px;
+            list-style: none;
+            text-align: left;
+        }
+        
+        .ds-accordion__topic__icon-container {
+            margin: 0 4px;
+            max-width: 16px;
+            min-width: 16px;
+            position: relative;
+        }        
+
+    </style>
+    
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5 pb-5">
+
+            <div class="ds-accordion">
+                <button id="ds-item-0" aria-controls="ds-panel-0" aria-expanded="false" class="ds-accordion__topic" type="button">
+                    <div class="ds-accordion__topic__text-container">
+                        <span class="ds-text ds-text__paragraph ds-text__paragraph--xl ds-accordion__topic__text-title">
+                            Como faço para acompanhar a entrega do meu cartão?
+                        </span>
+                        <div class="ds-accordion__topic__icon-container">
+                            <svg aria-hidden="true" class="ds-accordion__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0234 11.5C14.1567 11.5 14.2744 11.447 14.3758 11.3409C14.4649 11.2478 14.5058 11.1316 14.4993 10.9922C14.4935 10.8528 14.4454 10.7366 14.357 10.6435L8.56625 4.58928C8.41412 4.43021 8.22689 4.35 8.00454 4.35C7.7822 4.35 7.58911 4.43021 7.42398 4.58928L1.63328 10.6435C1.54486 10.7495 1.5 10.8692 1.5 11.0024C1.5 11.135 1.54486 11.2546 1.63328 11.3606C1.73535 11.4538 1.85237 11.5 1.98565 11.5C2.11892 11.5 2.23009 11.4538 2.31916 11.3606L7.99544 5.42542L13.6711 11.3606C13.7725 11.4538 13.8902 11.5 14.0234 11.5Z" fill="#EC7000">  
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </button>
+            </div> 
+
+        </div>
+    </div>
+</div>
+
+
+               
+
+        
+</body>
+</html>
